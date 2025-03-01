@@ -31,7 +31,7 @@ public class HelloController {
   }
 
   @DeleteMapping("/delete")
-  @ResponseBody
+  @ResponseBody //순수한 문자 반환시 사용하는 애너테이션. 
   public String delete() {
     return "DELETE Method 요청";
   }
